@@ -1,0 +1,73 @@
+.Design-de-jogos-1-hex { color: #B841D9; }
+.Design-de-jogos-2-hex { color: #3703A6; }
+.Design-de-jogos-3-hex { color: #3C35F2; }
+.Design-de-jogos-4-hex { color: #1C1973; }
+.Design-de-jogos-5-hex { color: #100E40; }
+
+/* Color Theme Swatches in RGBA */
+.Design-de-jogos-1-rgba { color: rgba(183, 65, 216, 1); }
+.Design-de-jogos-2-rgba { color: rgba(54, 3, 165, 1); }
+.Design-de-jogos-3-rgba { color: rgba(59, 53, 242, 1); }
+.Design-de-jogos-4-rgba { color: rgba(28, 25, 114, 1); }
+.Design-de-jogos-5-rgba { color: rgba(15, 14, 63, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Design-de-jogos-1-hsla { color: hsla(286, 66, 55, 1); }
+.Design-de-jogos-2-hsla { color: hsla(258, 96, 33, 1); }
+.Design-de-jogos-3-hsla { color: hsla(241, 88, 57, 1); }
+.Design-de-jogos-4-hsla { color: hsla(241, 63, 27, 1); }
+.Design-de-jogos-5-hsla { color: hsla(241, 63, 15, 1); }
+
+
+body{
+    background-color: #3703A6;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.opcoes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: #B841D9;
+    padding: 20px 80px;
+    margin-top: 20px;
+    border-radius: 7px;
+    transition: 1s;
+    transform: translateX(0) scale(1);
+    box-shadow: 2px 3px 9px rgba(255, 255, 255, 0.63);
+
+}
+
+a:hover{
+    color: #3703A6;
+    transform: translateX(10px) scale(1.2);
+    
+}
+
+.tittle{
+    font-size: 3em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.second-tittle{
+    font-size: 3em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 50px;
+    margin-left: 100px;
+}

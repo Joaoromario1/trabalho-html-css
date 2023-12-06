@@ -1,0 +1,87 @@
+/* Color Theme Swatches in Hex */
+.Design-de-jogos-1-hex { color: #B841D9; }
+.Design-de-jogos-2-hex { color: #3703A6; }
+.Design-de-jogos-3-hex { color: #3C35F2; }
+.Design-de-jogos-4-hex { color: #1C1973; }
+.Design-de-jogos-5-hex { color: #100E40; }
+
+/* Color Theme Swatches in RGBA */
+.Design-de-jogos-1-rgba { color: rgba(183, 65, 216, 1); }
+.Design-de-jogos-2-rgba { color: rgba(54, 3, 165, 1); }
+.Design-de-jogos-3-rgba { color: rgba(59, 53, 242, 1); }
+.Design-de-jogos-4-rgba { color: rgba(28, 25, 114, 1); }
+.Design-de-jogos-5-rgba { color: rgba(15, 14, 63, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Design-de-jogos-1-hsla { color: hsla(286, 66, 55, 1); }
+.Design-de-jogos-2-hsla { color: hsla(258, 96, 33, 1); }
+.Design-de-jogos-3-hsla { color: hsla(241, 88, 57, 1); }
+.Design-de-jogos-4-hsla { color: hsla(241, 63, 27, 1); }
+.Design-de-jogos-5-hsla { color: hsla(241, 63, 15, 1); }
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #3703A6;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    box-shadow: 4px 5px 8px #b841d99d;
+    border-radius: 10px;
+    
+}
+section{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   
+}
+h2{
+    color: #B841D9;
+    box-shadow:  2px 3px 9px rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    
+}
+p{
+    
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+
+div{
+    margin-right: 50px;
+    
+}
+
+.voltar{
+    background-color: #B841D9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left:auto ;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 2px 3px 9px rgba(255, 255, 255, 0.623);
+    margin-bottom: 30px;
+}
+h3{
+    color: white;
+}
